@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:login_signup_ui/pages/register_page.dart';
+import 'package:login_signup_ui/pages/login_page.dart';
 
-class LoginPage extends StatelessWidget {
-  const LoginPage({super.key});
+class RegisterPage extends StatelessWidget {
+  const RegisterPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -42,7 +42,7 @@ class LoginPage extends StatelessWidget {
           const Padding(
             padding: EdgeInsets.only(top: 10),
             child: Text(
-              "Signin",
+              "Register",
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 25,
@@ -105,23 +105,32 @@ class LoginPage extends StatelessWidget {
                       borderRadius: BorderRadius.circular(25))),
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.only(top: 8.0),
-            child: GestureDetector(
-              child: const Row(
-                mainAxisAlignment: MainAxisAlignment.end,
-                children: [
-                  Text(
-                    "Forgot Password?",
-                    style: TextStyle(color: Color(0xff3cd27d)),
+          Container(
+            padding: const EdgeInsets.only(top: 20),
+            child: TextField(
+              decoration: InputDecoration(
+                  hintText: "Confirm Password",
+                  hintStyle: const TextStyle(color: Color(0xff62678c)),
+                  fillColor: const Color(0xff353a61),
+                  filled: true,
+                  contentPadding: const EdgeInsets.all(10),
+                  suffixIcon: Padding(
+                    padding: const EdgeInsets.all(15),
+                    child: Image.asset(
+                      'assets/images/password.png',
+                      fit: BoxFit.contain,
+                      height: 8,
+                      width: 8,
+                    ),
                   ),
-                ],
-              ),
+                  border: OutlineInputBorder(
+                      borderSide: BorderSide.none,
+                      borderRadius: BorderRadius.circular(25))),
             ),
           ),
           Center(
             child: Padding(
-              padding: const EdgeInsets.only(top: 20),
+              padding: const EdgeInsets.only(top: 30),
               child: ElevatedButton(
                 onPressed: () {},
                 style: ElevatedButton.styleFrom(
@@ -130,7 +139,7 @@ class LoginPage extends StatelessWidget {
                     fixedSize: const Size(180, 50),
                     foregroundColor: Colors.white),
                 child: const Text(
-                  'Login',
+                  'Register',
                 ),
               ),
             ),
@@ -197,7 +206,7 @@ class LoginPage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 const Text(
-                  "Don't have an account?",
+                  "Already have an account?",
                   style: TextStyle(
                       color: Color(0xff62678c), fontWeight: FontWeight.w500),
                 ),
@@ -206,11 +215,11 @@ class LoginPage extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: (context) => const RegisterPage()),
+                          builder: (context) => const LoginPage()),
                     );
                   },
                   child: Text(
-                    " Signup",
+                    " Login",
                     style: TextStyle(
                         color: Colors.blue[400], fontWeight: FontWeight.w500),
                   ),
