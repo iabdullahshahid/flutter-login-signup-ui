@@ -7,9 +7,10 @@ class RegisterPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       backgroundColor: const Color(0xff202442),
       appBar: appBar(),
-      body: body(context),
+      body: SingleChildScrollView(child: body(context)),
     );
   }
 
@@ -62,6 +63,7 @@ class RegisterPage extends StatelessWidget {
           Container(
             padding: const EdgeInsets.only(top: 20),
             child: TextField(
+              style: const TextStyle(color: Colors.white),
               decoration: InputDecoration(
                   hintText: "Email Address",
                   hintStyle: const TextStyle(color: Color(0xff62678c)),
@@ -85,6 +87,7 @@ class RegisterPage extends StatelessWidget {
           Container(
             padding: const EdgeInsets.only(top: 20),
             child: TextField(
+              style: const TextStyle(color: Colors.white),
               decoration: InputDecoration(
                   hintText: "Password",
                   hintStyle: const TextStyle(color: Color(0xff62678c)),
@@ -108,6 +111,7 @@ class RegisterPage extends StatelessWidget {
           Container(
             padding: const EdgeInsets.only(top: 20),
             child: TextField(
+              style: const TextStyle(color: Colors.white),
               decoration: InputDecoration(
                   hintText: "Confirm Password",
                   hintStyle: const TextStyle(color: Color(0xff62678c)),
