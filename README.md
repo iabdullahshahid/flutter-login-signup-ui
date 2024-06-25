@@ -8,15 +8,15 @@ Here are some snapshots of Pass Locker in action:
 
 ### Splash Screen
 
-![Home Screen](./assets/readme-assets/splash.jpg)
+![Splash Screen](./assets/readme-assets/splash.jpg)
 
 ### Login Screen
 
-![Login Screen](./assets/readme-assets/login.png)
+![Login Screen](./assets/readme-assets/login.jpg)
 
 ### Register Screen
 
-![Home Screen](./assets/readme-assets/register.png)
+![Register Screen](./assets/readme-assets/register.jpg)
 
 ## 🎨 Features
 
