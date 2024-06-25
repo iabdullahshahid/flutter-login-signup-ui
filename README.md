@@ -6,17 +6,11 @@ Welcome to **Pass Locker**, your secure and stylish password manager UI built wi
 
 Here are some snapshots of Pass Locker in action:
 
-### Splash Screen
-
-![Splash Screen](./assets/readme-assets/splash.jpg)
-
-### Login Screen
-
-![Login Screen](./assets/readme-assets/login.jpg)
-
-### Register Screen
-
-![Register Screen](./assets/readme-assets/register.jpg)
+<p align="center">
+  <img src="./assets/readme-assets/splash.jpg" alt="Splash Screen" width="200" />
+  <img src="./assets/readme-assets/login.jpg" alt="Login Screen" width="200" />
+  <img src="./assets/readme-assets/register.jpg" alt="Register Screen" width="200" />
+</p>
 
 ## 🎨 Features
 
