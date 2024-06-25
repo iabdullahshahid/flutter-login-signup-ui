@@ -1,16 +1,34 @@
-# login_signup_ui
+# Pass Locker 🔒
 
-A new Flutter project.
+Welcome to **Pass Locker**, your secure and stylish password manager UI built with Flutter! 🚀
 
-## Getting Started
+## 📱 Screenshots
 
-This project is a starting point for a Flutter application.
+Here are some snapshots of Pass Locker in action:
 
-A few resources to get you started if this is your first Flutter project:
+### Splash Screen
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Home Screen](assets/readme-assets/splash.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Login Screen
+
+![Login Screen](assets/readme-assets/login.png)
+
+### Register Screen
+
+![Home Screen](assets/readme-assets/register.png)
+
+## 🎨 Features
+
+- **Beautiful UI**: A clean and modern design to keep your passwords safe and easily accessible.
+- **Responsive Layout**: Optimized for both mobile and tablet devices.
+- **Easy Navigation**: Intuitive and user-friendly interface.
+
+## 🚀 Getting Started
+
+To get started with Pass Locker, follow these steps:
+
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/yourusername/pass-locker.git
+   ```
